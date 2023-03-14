@@ -3,6 +3,8 @@
 .navbar{
     display: flex;
     position: sticky;
+    top: 0;
+    background-color: $color-white;
     width: 95%;
     height: 4.5rem;
     margin: 25px auto 0 auto;
@@ -13,6 +15,7 @@
     align-items: center;
     justify-content: space-between;
     font-family: $primary-font-style;
+    z-index: 1;
 
     &:first-child{
         display: flex;
@@ -21,7 +24,7 @@
     & ul > li{
         display: inline;
         margin-left: 3rem;
-        font-weight: 400;
+        font-weight: 500;
         font-size: 1.2rem;
     }
 
