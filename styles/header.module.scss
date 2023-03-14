@@ -1,0 +1,53 @@
+@import "./_config.scss";
+
+.navbar{
+    display: flex;
+    position: sticky;
+    width: 95%;
+    height: 4.5rem;
+    margin: 25px auto 0 auto;
+    padding: 0 4rem;
+    border: 1px solid $primary-font-color;
+    border-radius: 10px;
+    box-shadow: 6px 6px $primary-font-color;
+    align-items: center;
+    justify-content: space-between;
+    font-family: $primary-font-style;
+
+    &:first-child{
+        display: flex;
+    }
+    
+    & ul > li{
+        display: inline;
+        margin-left: 3rem;
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+
+    &-link{
+        color: $secondary-font-color;
+        text-decoration: none;
+    }
+
+    &-link__active{
+        color: $primary-font-color;
+        text-decoration: none;
+    }
+
+    & button{
+        font-size: 1rem;
+        background-color: $color-blue;
+        margin-left: 3rem;
+        padding: 0.5rem 1.5rem;
+        border: 1px solid $primary-font-color;
+        box-shadow: 4px 4px $primary-font-color;
+        border-radius: 6px;
+    }
+
+    & button:hover{
+        box-shadow: 4px 4px #b35cff;
+    }
+
+
+}
