@@ -52,7 +52,7 @@
         }
     
         & button:hover{
-            box-shadow: 4px 4px #b35cff;
+            box-shadow: 4px 4px $color-violet;
         }
         
 
@@ -92,7 +92,7 @@
 }
 
 .tags-block{
-    background-color: #F1FF85;
+    background-color: $color-yellow;
     border: 1px solid $primary-font-color;
     border-radius: 25px;
     width: max-content;

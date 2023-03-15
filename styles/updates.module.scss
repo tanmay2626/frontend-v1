@@ -24,12 +24,12 @@
     }
 
     &__backdrop{
-        @include box_template(#FABE75);
+        @include box_template($color-orange);
         transform: rotate(-2deg);
     }
 
     & > div:nth-child(3){
-        @include box_template(#8EEBF5);
+        @include box_template($color-blue);
         border: 1px solid $primary-font-color;
         display: flex;
         align-items: center;
