@@ -1,6 +1,7 @@
 import Hero from "@/components/landing-page/Hero";
 import Head from "next/head";
 import styles from "@/styles/home.module.scss";
+import Features from "@/components/landing-page/Feature";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <Hero />
+        <Features />
       </main>
     </>
   );
