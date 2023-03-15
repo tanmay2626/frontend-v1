@@ -8,3 +8,16 @@
   }
 
   
+.blogs-header{
+  display: flex;
+  margin-top: 4rem;
+
+  & > div:first-child{
+    flex: 30;
+  }
+
+  & > div:last-child{
+    flex: 70;
+    padding-left: 1rem;
+  }
+}

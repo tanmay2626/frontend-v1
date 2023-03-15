@@ -1,0 +1,102 @@
+@import "./_config.scss";
+
+.blogs-container{
+    display: flex;
+    gap: 1.5rem;
+    width: 100%;
+    height: 45rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+    & > div:first-child{
+        flex: 30;
+    }
+
+    & > div:last-child{
+        flex: 70;
+    }
+
+    &__left > div:first-child{
+        display: flex;
+        position: relative;
+        height: 24rem;
+        border-radius: 15px;
+        flex-direction: column;
+    }
+
+    &__left > div:last-child{
+        height: 21rem;
+        margin-top: -1rem;
+        padding-top: 2rem;
+        border-radius: 0 0 10px 10px;
+        border: 1px solid $primary-font-color;
+
+        & > div:first-child{
+            width: 95%;
+            margin: 0 auto;
+        }
+
+        
+        h1,p{
+            padding-top: 0.5rem;
+        }
+
+        & button{
+            font-size: 1rem;
+            margin-top: 1rem;
+            background-color: $color-blue;
+            padding: 0.5rem 1rem;
+            border: 1px solid $primary-font-color;
+            box-shadow: 4px 4px $primary-font-color;
+            border-radius: 6px;
+        }
+    
+        & button:hover{
+            box-shadow: 4px 4px #b35cff;
+        }
+        
+
+    }
+}
+
+.card-container{
+    display: flex;
+    margin-top: 1rem;
+    width: 100%;
+    height: 10rem;
+    
+
+    & > div:first-child{
+        position: relative;
+        flex: 20;
+        border-radius: 10px;
+    }
+
+    & > div:last-child{
+        flex: 80;
+        margin-left: -1rem;
+        padding-left: 2rem;
+        border: 1px solid $primary-font-color;
+        border-radius: 0 10px 10px 0;
+
+        & > div:first-child{
+            height: 100%;
+            padding: 1rem 10px;
+
+            h1,p {
+                padding-top: 0.5rem;
+            }
+        }
+    }
+ 
+}
+
+.tags-block{
+    background-color: #F1FF85;
+    border: 1px solid $primary-font-color;
+    border-radius: 25px;
+    width: max-content;
+    padding: 5px 10px 5px 10px;
+    display: inline;
+    margin-right: 5px;
+}
